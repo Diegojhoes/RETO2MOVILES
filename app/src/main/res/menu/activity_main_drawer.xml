@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tienda"
+            android:icon="@drawable/ic_baseline_shop_24"
+            android:title="TIENDA" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+            android:title="PRODUCTOS" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@drawable/ic_baseline_construction_24"
+            android:title="SERVICIOS" />
+        <item
+            android:id="@+id/nav_sucursales"
+            android:icon="@drawable/ic_baseline_business_24"
+            android:title="SUCURSALES" />
+    </group>
+</menu>
